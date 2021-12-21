@@ -36,6 +36,11 @@ const Navegacion = () => {
             Login
           </Link>
         </li>
+        <li className="links">
+          <Link to="/dashboard" className="ar">
+            Dashboard
+          </Link>
+        </li>
       </ul>
     </nav>
   );
