@@ -8,7 +8,7 @@ const Vision = () => {
                    <h2>Visión</h2>
                </div>
                <div className="content">
-                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aperiam facilis eaque ad vitae neque vero recusandae. Quis, harum magni.</p>
+                   <p>Nuestra visión incluye dirigir a nuestros empleados hacia la calidad en la prestación del servicio, así como incorporar continuas mejoras tecnológicas que nos permitan proporcionar la mejor experiencia a nuestros clientes, mejorando la calidad de la misma y contribuyendo a un mundo más sostenible.</p>
                </div>
         </div>
     )

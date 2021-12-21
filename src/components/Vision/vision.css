@@ -13,3 +13,14 @@
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
   }
   
+  .vision h2{
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
+  
+  .vision p{
+    text-align: justify;
+    color: white;
+    padding: 30px;
+  }

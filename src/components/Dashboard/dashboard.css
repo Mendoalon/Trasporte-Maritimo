@@ -1,9 +1,9 @@
 .navegacion {
   position: fixed;
-  margin: 120px;
+  margin: 300px;
   width: 1500px;
-  top: 60px;
-  padding: 5px 20px;
+  top: -100px;
+  padding: 5px 5px;
   bottom: auto;
   border-radius: 25px;
   background: rgba(43, 129, 205, 1);
@@ -16,10 +16,7 @@
   width: 102%;
   border-bottom: 1px solid white;
 }
-.navegacion {
-  padding: 1rem 2rem;
-  border-bottom: 1px solid yellow;
-}
+
 .sidebar {
   width: 14rem;
   height: calc(100vh - 50px);
@@ -58,5 +55,9 @@
   text-align: center;
   margin: 20px;
   
+}
+
+ th,tbody {
+  color: white;
 }
 

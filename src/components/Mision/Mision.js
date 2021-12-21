@@ -8,7 +8,7 @@ const Mision = () => {
                    <h2>Misión</h2>
                </div>
                <div className="content">
-                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, aperiam facilis eaque ad vitae neque vero recusandae. Quis, harum magni.</p>
+                   <p>Nuestra misión es ser conocidos y reconocidos por nuestro liderazgo en el sector y por ofrecer un servicio de calidad basado en una mejora continua. Nos comprometemos con nuestros clientes brindándoles un servicio seguro, de calidad, responsable y al mejor precio, renovando y adaptando nuestros servicios hacia las demandas del mercado.</p>
                </div>
            </div>
     )

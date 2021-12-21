@@ -4,6 +4,7 @@ import "./dashboard.css";
 
 const Dashboard = () => {
   return (
+    
     <div className="navegacion">
       <div className="sidebar">
         <h1 className="text-white">Dashboard</h1>
@@ -18,10 +19,16 @@ const Dashboard = () => {
                   <Link to="lisusuario">Usuarios </Link>
                 </li>
                 <li className="lides">
-                  <Link to="ediUsuario">Crear Cotizacion </Link>
+                  <Link to="empresas">Empresas</Link>
                 </li>
                 <li className="lides">
-                  <Link to="/sales">Sales </Link>
+                  <Link to="facturas">Facturas</Link>
+                </li>
+                <li className="lides">
+                  <Link to="ordenes">Ordenes</Link>
+                </li>
+                <li className="lides">
+                  <Link to="puertos">Puertos</Link>
                 </li>
               </ul>
             </nav>

@@ -5,8 +5,8 @@ import {Modal, ModalBody, ModalFooter, ModalHeader} from 'reactstrap';
 
 
 
-const url ='http://[::1]:3000/usuario'
-class ListarUsuarios extends Component {
+const url ='http://localhost:3000/puerto'
+class Puertos extends Component {
 
   state ={
     data:[], 
@@ -69,31 +69,33 @@ render(){
 
   return (
     <div className="conten">
-      <h1 className="h1usuario">Usuarios</h1>
+      <h1 className="h1usuario">Puertos</h1>
 
-       <button className="btn btn-success" onClick={this.abrirModal} >Crear Usuario</button>
+       <button className="btn btn-success" onClick={this.abrirModal} >Crear Puerto</button>
     <br /> <br />
     <table className="table">
-    <thead>
+    <thead> 
       <tr>
-      <th>Id</th>
-        <th>Email</th>
-        <th>Nombre</th>
-        <th>Apellido</th>
-        <th>Rol</th>
+      <th>Codigo Puerto</th>
+        <th>Nombre Puerto</th>
+        <th>Ciudad</th>
+        <th>Pais</th>
+        <th>Descripcion</th>
+        
       </tr>
     </thead>
     <tbody>
-      {this.state.data.map(usuario=>{
+      {this.state.data.map(puerto=>{
         
         return(
           
           <tr>
-          <td>{usuario.userId}</td>
-          <td>{usuario.email}</td>
-          <td>{usuario.firstName}</td>
-          <td>{usuario.lastName}</td>         
-          <td>{usuario.role}</td>
+          <td>{puerto.codePort}</td>
+          <td>{puerto.nombre}</td>
+          <td>{puerto.ciudad}</td>
+          <td>{puerto.pais}</td>
+          <td>{puerto.descripcion}</td>         
+          
           <td>
             <button className="btn btn-primary">Editar</button>
             <button className="btn btn-danger">Eliminar</button>
@@ -154,4 +156,4 @@ render(){
 };
 }
 
-export default ListarUsuarios
+export default Puertos
